@@ -10,4 +10,12 @@ width: 80%;
   height: 30vh;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  color: #ff914d;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
