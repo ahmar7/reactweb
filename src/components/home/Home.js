@@ -1,14 +1,11 @@
 import React from 'react';
 import "../../assets/css/style.css"
-const Header = () => {
+const Home = () => {
     return (
         <div className='container'>
-            <div className="header">
-
-            </div>
             
         </div>
     );
 }
 
-export default Header;
+export default Home;

@@ -1,3 +1,13 @@
+body{margin: 0;
+padding: 0;
+margin: 0 auto;
+width: 80%;
+
+}
+
 .header{
-    
+  background-color: #35a15e;  
+  height: 30vh;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
