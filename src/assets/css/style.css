@@ -175,7 +175,7 @@ body {
 .planbtn .btn2 {
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
-  border-color: #efeeeb;
+  border-color: lightgray;
   background: white;
   color: #ff914d;
   border-left: none !important;
@@ -188,12 +188,59 @@ body {
   margin-top: 50px;
 }
 .p-block {
-  height: 600px;
-  background-color: rgb(231, 231, 231);
+  text-align: center;
+  height: 590px;
+  background-color: #efeeeb;
   border-radius: 30px;
-  width: 20%;
+  width: 28%;
 }
 .p-block h3 {
   text-align: center;
   color: #35a15e;
+}
+.p-block img {
+  margin-top: 15px;
+  text-align: center;
+  width: 130px;
+}
+.p-block ul {
+  /* list-style: url(../images/correct.png); */
+  /* width: 20px; */
+  text-align: left !important;
+}
+.p-block ul li {
+  text-align: left !important;
+  list-style: none;
+  margin-left: -30px;
+  padding: 10px 0 10px 30px;
+  list-style: none;
+  background-image: url("../images/correct.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+}
+.pt2 ul li:nth-child(5),
+.pt2 ul li:nth-child(6),
+.pt2 ul li:nth-child(7) {
+  background-image: url("../images/wrong.png");
+}
+.p-block button {
+  background-color: #ff914d;
+  color: white;
+  padding: 11px 30px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+}
+.pop {
+  text-align: center;
+  margin-top: -40px;
+}
+.pop h3 {
+  padding: 7px 15px;
+  border-radius: 15px;
+  margin-bottom: -20px;
+  background-color: #c63838;
+  color: white;
 }
