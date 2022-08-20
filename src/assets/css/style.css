@@ -156,7 +156,7 @@ body {
   text-align: center;
 }
 .planbtn button {
-  padding: 12px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -175,8 +175,25 @@ body {
 .planbtn .btn2 {
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
-  border-color: lightgray;
+  border-color: #efeeeb;
   background: white;
   color: #ff914d;
   border-left: none !important;
+}
+.plan-block {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.p-block {
+  height: 600px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 30px;
+  width: 20%;
+}
+.p-block h3 {
+  text-align: center;
+  color: #35a15e;
 }
