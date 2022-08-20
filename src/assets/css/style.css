@@ -10,6 +10,16 @@ body {
   height: 200px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-column-left {
+  margin-left: 15px;
+}
+.header-column-right {
+  margin-right: 15px;
 }
 .block {
   margin-top: 30px;
@@ -24,6 +34,7 @@ body {
   width: 35%;
   text-align: center;
 }
+
 .column-left h1 {
   font-size: 2.3rem;
   line-height: 35px;
@@ -48,4 +59,22 @@ body {
 }
 .column-left p {
   color: #1e0101;
+}
+.nav-li {
+  display: inline;
+  list-style: none;
+}
+.nav-li li {
+  display: inline;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 8px 15px;
+}
+.active {
+  background-color: #ff914d;
 }
